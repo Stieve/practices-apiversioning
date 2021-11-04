@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0D789DF7-A641-4744-8E74-96E6ED8E53DB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\nuget.config = ..\..\nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{DE1D16D4-EFFF-485B-8840-75DA62CF3233}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.build\NCore.Practices.ApiVersioning\NCore.Practices.ApiVersioning.yaml = ..\..\.build\NCore.Practices.ApiVersioning\NCore.Practices.ApiVersioning.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCore.Practices.ApiVersioning.DependencyInjection", "NCore.Practices.ApiVersioning.DependencyInjection\NCore.Practices.ApiVersioning.DependencyInjection.csproj", "{7BA52DAB-DAA5-4D97-93D8-B92A24EF5853}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCore.Practices.ApiVersioning.SwaggerExtensions", "NCore.Practices.ApiVersioning.SwaggerExtensions\NCore.Practices.ApiVersioning.SwaggerExtensions.csproj", "{D962B917-755D-4EE6-98C6-0CD9363390C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCore.Practices.ApiVersioning", "NCore.Practices.ApiVersioning\NCore.Practices.ApiVersioning.csproj", "{387C6245-94DC-49ED-B68D-8C7D626E0722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BA52DAB-DAA5-4D97-93D8-B92A24EF5853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA52DAB-DAA5-4D97-93D8-B92A24EF5853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA52DAB-DAA5-4D97-93D8-B92A24EF5853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA52DAB-DAA5-4D97-93D8-B92A24EF5853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D962B917-755D-4EE6-98C6-0CD9363390C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D962B917-755D-4EE6-98C6-0CD9363390C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D962B917-755D-4EE6-98C6-0CD9363390C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D962B917-755D-4EE6-98C6-0CD9363390C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387C6245-94DC-49ED-B68D-8C7D626E0722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387C6245-94DC-49ED-B68D-8C7D626E0722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387C6245-94DC-49ED-B68D-8C7D626E0722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387C6245-94DC-49ED-B68D-8C7D626E0722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D01B0DB0-E191-4249-BD80-BB3C3BAE2222}
+	EndGlobalSection
+EndGlobal

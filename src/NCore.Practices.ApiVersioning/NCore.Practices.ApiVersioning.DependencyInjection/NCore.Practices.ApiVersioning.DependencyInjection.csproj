@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Authors>Ordina Belgium - NCore</Authors>
+		<Description>Dependency Injection for Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer with default practices</Description>
+		<Copyright>Copyright Ordina Belgium - NCore</Copyright>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageTags>apiversioning</PackageTags>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+	</ItemGroup>
+
+</Project>

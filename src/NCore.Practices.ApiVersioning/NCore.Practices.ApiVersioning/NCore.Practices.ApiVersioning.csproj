@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <Authors>Ordina Belgium - NCore</Authors>
+	  <Description>Metapackage for NCore.Practices.ApiVersioning with default practices</Description>
+	  <Copyright>Copyright Ordina Belgium - NCore</Copyright>
+	  <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <PackageTags>apiversioning;swagger</PackageTags>
+	  <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NCore.Practices.ApiVersioning.DependencyInjection\NCore.Practices.ApiVersioning.DependencyInjection.csproj" />
+    <ProjectReference Include="..\NCore.Practices.ApiVersioning.SwaggerExtensions\NCore.Practices.ApiVersioning.SwaggerExtensions.csproj" />
+  </ItemGroup>
+
+</Project>
